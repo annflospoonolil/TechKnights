@@ -1,0 +1,224 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "topic": "Technology",
+        
+        "donation": "1-10lakhs",
+        "location": "San Francisco",
+        "startup_size": "Small",
+        "description": "John is a seasoned tech investor with a passion for supporting early-stage startups. He has a track record of successful investments in the technology sector and is always on the lookout for the next big thing.",
+        "final_des":"tech,1-10",
+        "email":"john@gmail.com",
+        "linkedin":"https://www.linkedin.com/in/john-doe-123456789/"
+    },
+
+    {
+        "id": 2,
+        "name": "Gowrilakshmi",
+        "topic": "Technology",
+        
+        "donation": "20-30lakhs",
+        "location": "India",
+        "startup_size": "Small",
+        "description": "Gowrilakshmi is an investor who strategically allocates capital across various financial instruments with the aim of generating profitable returns.",
+        "final_des":"tech,20-30",
+        "email":"gowri@gmail.com",
+        "linkedin":"https://www.linkedin.com/in/gowrilakshmi-renjith-a2181729b/"
+    },
+    {
+        "id": 3,
+        "name": "Gayathri Menon",
+        "topic": "Technology",
+        
+        "donation": "1-10lakhs",
+        "location": "India",
+        "startup_size": "Small",
+        "description": "Gowrilakshmi is an investor who strategically allocates capital across various financial instruments with the aim of generating profitable returns.",
+        "final_des":"tech,1-10",
+        "email":"gayathri@gmail.com",
+        "linkedin":"https://www.linkedin.com/in/gayathri-menon-225905292/"
+    },
+    {
+        "id": 4,
+        "name": "Jane Smith",
+        "topic": "Healthcare",
+        
+        "donation": "10-20lakhs",
+        "location": "New York",
+        "startup_size": "Medium",
+        "description": "Jane is a healthcare industry expert with a deep understanding of the latest trends and technologies. She is committed to investing in companies that are making a real difference in people's lives and improving the healthcare system as a whole.",
+        "final_des":"heal,10-20",
+        "email":"jane@gmail.com",
+        "linkedin":"https://www.linkedin.com/in/jane-smith-123456789/"
+    },
+    {
+        "id": 5,
+        "name": "Mike Johnson",
+        "topic": "Renewable Energy",
+        
+        "donation": "40-50lakhs",
+        "location": "Los Angeles",
+        "startup_size": "Large",
+        "description": "Mike is a successful entrepreneur and investor with a focus on renewable energy. He is passionate about supporting companies that are working towards a sustainable future and has a strong track record of successful investments in this space.",
+        "final_des":"rene,40-50",
+        "email":"mike@gmail.com",
+        "linkedin":"https://www.linkedin.com/in/mike-johnson-123456789/"
+    },
+    {
+        "id": 6,
+        "name": "Sarah Chen",
+        "topic": "Technology",
+        "donation": "10-20lakhs",
+        "location": "Singapore",
+        "startup_size": "Medium",
+        "description": "Sarah is a technology enthusiast and angel investor known for her investments in innovative tech startups. With a background in software engineering, she brings both financial acumen and technical expertise to her investments, aiming to foster the growth of disruptive technologies.",
+        "final_des":"tech,10-20",
+        "email":"sarah@gmail.com",
+        "linkedin":"https://www.linkedin.com/in/sarah-chen-123456789/"
+    },
+    {
+        "id":7,
+        "name": "Alex Rodriguez",
+
+        "topic": "Technology",
+        "donation": "30-40lakhs",
+        "location": "New York City",
+        "startup_size": "Large",
+        "description": "Alex is a seasoned venture capitalist with a keen interest in transformative technologies such as AI, blockchain, and biotech. With a diverse portfolio spanning multiple industries, he leverages his extensive network and strategic insights to identify promising startups and help them scale globally.",
+        "final_des":"tech,30-40",
+        "email":"alex@gmail.com",
+        "linkedin":"https://www.linkedin.com/in/alex-rodriguez-123456789/"
+    },
+    {
+        "id":8,
+        "name": "Priya Patel",
+
+        "topic": "Healthcare",
+        "donation": "10-20lakhs",
+        "location": "Bangalore",
+        "startup_size": "Small",
+        "description": "Priya is an Healthcare expert committed to investing in innovative companies improving the healthcare system.",
+        "final_des":"heal,10-20",
+        "email":"priya@gmail.com",
+        "linkedin":"https://www.linkedin.com/in/priya-patel-123456789/"
+    },
+    {
+        "id":9,
+        "name": "Alen Joe",
+
+        "topic": "Technology",
+        "donation": "10-20lakhs",
+        "location": "Mangalore",
+        "startup_size": "Small",
+        "description": "Alen is a  Seasoned tech investor passionate about supporting early-stage startups with a track record of successful investments.",
+        "final_des":"tech,10-20",
+        "email":"alen@gmail.com",
+        "linkedin":"https://www.linkedin.com/in/alen-joe-123456789/"
+    },
+    {
+        "id":10,
+        "name": "Alice",
+
+        "topic": "Technology",
+        "donation": "20-30lakhs",
+        "l": "delhi",
+        "startup_size": "Medium",
+        "description": "alice is a Strategic investor allocating capital for profitable returns in the technology sector",
+        "final_des":"tech,20-30",
+        "email":"alice@gmail.com",
+        "linkedin":"https://www.linkedin.com/in/alice-123456789/"
+    },
+    {
+        "id":11,
+        "name": "don jose",
+
+        "topic": "Technology",
+        "donation": "20-30lakhs",
+        "location": "kochi",
+        "startup_size": "Medium",
+        "description": "don jose is a Tech investor providing capital and mentorship for early-stage startups in India.",
+        "final_des":"tech,20-30",
+        "email":"don@gmail.com",
+        "linkedin":"https://www.linkedin.com/in/don-jose-123456789/"
+    },
+    {
+        "id":12,
+        "name": "arjun desh",
+
+        "topic": "Healthcare",
+        "donation": "1-10lakhs",
+        "location": "coimbatore",
+        "startup_size": "Small",
+        "description": "arjun desh is an Angel investor fostering growth in early-stage startups in India's tech ecosystem.",
+        "final_des":"heal,1-10",
+        "email":"arjun@gmail.com",
+        "linkedin":"https://www.linkedin.com/in/arjun-desh-123456789/"
+    },
+    {
+        "id":13,
+        "name": "william harold",
+
+        "topic": "Healthcare",
+        "donation": "20-30lakhs",
+        "location": "Bangalore",
+        "startup_size": "Small",
+        "description": "Priya is an Entrepreneur and investor supporting Indian startups with capital and guidance.",
+        "final_des":"heal,20-30",
+        "email":"john@gmail.com",
+        "linkedin":"https://www.linkedin.com/in/william-harold-123456789/"
+    },
+    {
+        "id":14,
+        "name": "arjun ai",
+
+        "topic": "Healthcare",
+        "donation": "40-50lakhs",
+        "location": "Bangalore",
+        "startup_size": "Large",
+        "description": "arjun is an Investor focusing on healthcare, providing capital for innovative solutions.",
+        "final_des":"heal,40-50",
+        "email":"arjunai@gmail.com",
+        "linkedin":"https://www.linkedin.com/in/arjun-ai-123456789/"
+    },
+    {
+        "id":15,
+        "name": "aswathi ks",
+
+        "topic": "Renewable Energy",
+        "donation": "1-10lakhs",
+        "location": "trivandrum",
+        "startup_size": "Small",
+        "description": "aswathi is an Angel investor supporting early-stage startups in renewable energy.",
+        "final_des":"rene,1-10",
+        "email":"aswathi@gmail.com",
+        "linkedin":"https://www.linkedin.com/in/aswathi-ks-123456789/"
+    },
+    {
+        "id":16,
+        "name": "harris raj",
+
+        "topic": "Renewable Energy",
+        "donation": "20-30lakhs",
+        "location": "shillong",
+        "startup_size": "medium",
+        "description": "harris is an Entrepreneur investing in renewable energy startups, passionate about sustainable solutions.",
+        "final_des":"rene,20-30",
+        "email":"harris@gmail.com",
+        "linkedin":"https://www.linkedin.com/in/harris-raj-123456789/"
+    },
+    {
+        "id":17,
+        "name": "john mathews",
+
+        "topic": "Renewable Energy",
+        "donation": "30-40lakhs",
+        "location": "delhi",
+        "startup_size": "medium",
+        "description": "john is a Entrepreneur and investor focusing on sustainable solutions in renewable energy.",
+        "final_des":"rene,30-40",
+        "email":"johnm@gmail.com",
+        "linkedin":"https://www.linkedin.com/in/john-mathews-123456789/"
+    }
+   
+]
