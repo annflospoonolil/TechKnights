@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <!--imagee-->
+    <html>
+<head>
+    <title>poshy connect</title>
+</head>
+<body>
+
+<!--<img src="https://hamon.in/wp-content/uploads/2023/08/Create-a-Telegram-Bot-1.png" width="20%" style=" top:0 ; left: 0;" alt="Your Image">-->
+</body>
+</html>
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+  <title>Your Survey</title>
+
+  <style>
+    html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+  </style>
+
+</head>
+<body>
+
+<!-- Navbar -->
+
+  <div class="w3-bar w3-blue w3-card w3-left-align w3-large">
+    <img src="https://ecommpay.com/uploads/2022/10/25/telegram-bot.png" style="width: 200px">
+
+
+
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-blue" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="{{ url_for('survey_page') }}" class="w3-bar-item w3-button w3-padding-large w3-blue" style="float: right; margin-left: auto;">Home</a>
+
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-blue" style="float: right;margin-left: auto;">About Us</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-blue" style="float: right;margin-left: auto;">Notification</a>
+
+  </div>
+
+
+  <div class="w3-padding-large">
+
+ <div class="w3-row-padding w3-padding-16 w3-center">
+
+        <div class="w3-third w3-left-align w3-padding-16">
+            <!--<img src="/static/images/globe.png" width='100px'/>-->
+        </div>
+        <div class="w3-two-third w3-left-align w3-padding-16">
+            <h1 class="w3-text-grey w3-padding-16">Ready To Invest?
+          <BR><font style="color:#27AE60; font-size: large;">Simplifying Investing.Amplifying Return</font></h1>
+        </div>
+
+
+ <!-- {{message}}-->
+
+    <form action="{{ url_for('survey_page')}}" id="survey_page" method="POST">
+
+      <H3>Tell us about your Interests:</H3>
+
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <div class="w3-half w3-left-align w3-padding-16">
+          <label for="are_you_happy"><b><font style="color:#27AE60; font-size: large;">Investment Range</font></b></label><br>
+
+          <SELECT class="w3-button w3-blue w3-padding-large w3-large w3-margin-top" name="are_you_happy">
+            <option value="{{are_you_happy}}" selected>choose one</option> ">
+            <option value="1-10lakhs">1-10lakhs</option>
+            <option value="10-20lakhs">10-20 lakhs</option>
+            <option value="20-30 lakhs">20-30 lakhs</option>
+            <option value="30-40 lakhs">30-40 lakhs</option>
+            <option value="40-50 lakhs">40-50 lakhs</option>
+          </SELECT>
+        </div>
+
+        <div class="w3-half w3-left-align w3-padding-16">
+          <label for="recommend_this_to"><b><font style="color:#27AE60; font-size: large;">Choose your intrests <br>(multiple answers are OK)</font></b><BR>
+
+          <input type="checkbox" name='recommend_this_to' value='technology' {{Family_checked}}>
+          <label for="Family"> Technology</label><br>
+          <input type="checkbox" name='recommend_this_to' value="healthcare" {{Friends_checked}}>
+          <label for="Friends"> Health Care</label><br>
+          <input type="checkbox" name='recommend_this_to' value="renewable energy" {{Colleagues_checked}}>
+          <label for="Colleagues"> Renewable Energy</label><br><br>
+        </div>
+      </div>
+
+
+
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <div class="w3-padding-large">
+          <label for="text"><b><font style="color:#27AE60; font-size: large;">Description:</font></b></label><BR>
+          <textarea name="tell_us_more" rows="4" cols="30">
+          </textarea>
+        </div>
+      </div>
+
+
+      <H3>About you:</H3>
+
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <div class="w3-half w3-left-align w3-padding-16">
+          <label for="first_name"><b><font style="color:#27AE60; font-size: large;">First name:</font></b><label><br>
+          <input type="text" name="first_name" placeholder="Enter your first name" required>
+        </div>
+
+        <div class="w3-half w3-left-align">
+          <label for="last_name"><b><font style="color:#27AE60; font-size: large;">Last name:</font></b></label><br>
+          <input type="text" name="last_name" placeholder="Enter last name" required>
+        </div>
+      </div>
+
+
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <div class="w3-half w3-left-align w3-padding-16">
+        <label for="email"><b><font style="color:#27AE60; font-size: large;">Email:</font></b></label><br>
+        <input type="email" name="email" placeholder="Enter your email">
+      </div>
+
+      <div class="w3-half w3-left-align w3-padding-16">
+        <label for="date_of_birth"><b><font style="color:#27AE60; font-size: large;">Linkedin Id:</font></b></label><br>
+        <input type="text" name="date_of_birth">
+       </div>
+      </div>
+
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <div class="w3-half w3-left-align w3-padding-16">
+          <label for="gender"><b><font style="color:#27AE60; font-size: large;">Startup Size:</font></b></label><br>
+          <input type="radio" name="gender" value="small">Small</input><br>
+          <input type="radio" name="gender" value="medium">Medium</input><br>
+          <input type="radio" name="gender" value="large">Large</input>
+        </div>
+      </div>
+
+
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <input type="submit" id="submitButton" value="Submit" name="submit"
+
+        class="w3-button w3-blue w3-padding-large w3-large w3-margin-top">
+      </div>
+
+
+  </form>
+
+</div>
+
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+
+  <p><a href="https://www.w3schools.com/w3css/default.asp" target="_blank"></a></p>
+</footer>
+
+</body>
+</html>
