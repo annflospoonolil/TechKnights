@@ -1,8 +1,8 @@
 from typing import Final
 from telegram import Update
 from telegram.ext import Application,CommandHandler,MessageHandler,filters,ContextTypes
-TOKEN: Final ="7187640848:AAGtBYzsXdK8BybHR7_Qq2CN0YFwZWpYjLI"
-BOT_USERNAME : Final = '@poschy'
+TOKEN: Final ="#token_id"
+BOT_USERNAME : Final = '#bot_username'
 
 import json
 import requests
